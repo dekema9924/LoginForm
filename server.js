@@ -2,13 +2,15 @@ const express = require('express');
 const port = 3000;
 const bodyParser = require('body-parser');
 const app = express();
-const Router = require('./routes/router')
+const BlogRouter = require('./routes/router');
+
 
 
 //middleware
-app.use(Router)
+app.use('/routes', BlogRouter)
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: false }))
+
 
 
 
