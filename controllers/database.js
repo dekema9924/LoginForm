@@ -7,8 +7,9 @@ const mongoose = require('mongoose')
 async function connect(){
     try{
         await mongoose.connect('mongodb://localhost:27017/Users')
-    }catch{
-        if(err)console.err
+        console.log('connected to db');
+    }catch(error){
+       console.log(error)
     }
 }
 connect();
