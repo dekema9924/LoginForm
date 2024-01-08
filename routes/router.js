@@ -60,11 +60,14 @@ Router.post('/login', async (req, res)=>{
             res.render('./success', {
                 username: name
             })
+        }else{
+            res.redirect('/')
         }
     })   
     }else{
         console.log('user not found')
         res.send('user not found')
+        res.redirect('/')
     }
 })
 
