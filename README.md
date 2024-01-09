@@ -1,7 +1,7 @@
 # LoginForm
 
-A fullstack login and register form using 
-node js and mongodb database. implemented password hashing for secure logins using bycrypt. planning on continuing this project to add cookies and sessions. 
+A full-stack login and register form using 
+node js and MongoDB database. implemented password hashing for secure logins using bycrypt. planning on continuing this project to add cookies and sessions. 
 
 ## Installation
 Clone repository with the command git clone <url>
@@ -17,16 +17,13 @@ Run npm i in your terminal to install node_modules and all dependencies in packa
  npm i
  ```
 
-Run nodemon in your terminal if installed to start the node server and watch for changes. should get a message saying server open in port 3000.
+Run Nodemon in your terminal if installed to start the node server and watch for changes. should get a message saying the server is open in port 3000.
 
 ```bash
 nodemon
 ```
-go to your browser and enter search for your local host 3000 
-and the site should run. 
+go to your browser and enter [localhost:3000](http://localhost:3000/) 
 
-
-```
 
 ##image preview
 
@@ -38,11 +35,7 @@ and the site should run.
 ![Success Form](https://github.com/dekema9924/LoginForm/assets/143339000/419b0230-4f6a-4392-bfc6-905a084ceba1)
 
 
-
-
-
-
-
+[live Demo](https://loginform-5nuc.onrender.com)
 
 
 
