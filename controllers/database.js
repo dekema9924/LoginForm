@@ -1,12 +1,12 @@
 
 const mongoose = require('mongoose')
-// mongoose.connect('mongodb://localhost:27017/Blogs').then(()=>{
-//     console.log('connected');
-// });
+require('dotenv').config()
+
+console.log(process.env.MONGO_URL)
 
 async function connect(){
     try{
-        await mongoose.connect('mongodb://localhost:27017/Users')
+        await mongoose.connect(process.env.MONGO_URL)
         console.log('connected to db');
     }catch(error){
        console.log(error)
