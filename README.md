@@ -40,6 +40,10 @@ go to your browser and enter [localhost:3000](http://localhost:3000/)
 [live Demo](https://loginform-5nuc.onrender.com)
 
 
+!!!NOTE: If you try logging in without registering the account, the app will show an error. simply re-click the link.😭
+This project is for my own learning purposes so it isn't perfect.
+
+
 
 ## Built With
 
@@ -47,7 +51,7 @@ Node js
 Express
 Ejs Template Engine
 Bootstrap
-MongoDb
+MongoDB
 
 
 ## Contributing
