@@ -29,17 +29,18 @@ and the site should run.
 ```
 
 ##image preview
-##The Login page
+
 
 <img width="607" alt="Screenshot 2024-01-08 at 11 44 16 PM" src="https://github.com/dekema9924/LoginForm/assets/143339000/7a6b6d9c-315d-43c4-a322-ef9606d4d32c">
 
-## Register Page
 
 <img width="1440" alt="Screenshot 2024-01-08 at 11 43 52 PM" src="https://github.com/dekema9924/LoginForm/assets/143339000/2347970c-e6dc-49c3-9e2d-d535c20846a9">
 
-## Success Page
 
 <img width="660" alt="Screenshot 2024-01-08 at 11 42 54 PM" src="https://github.com/dekema9924/LoginForm/assets/143339000/419b0230-4f6a-4392-bfc6-905a084ceba1">
+
+
+
 
 
 
