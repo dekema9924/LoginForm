@@ -1,7 +1,9 @@
 # LoginForm
 
 A full-stack login and register form using 
-node js and MongoDB database. implemented password hashing for secure logins using bycrypt. planning on continuing this project to add cookies and sessions. 
+node js and MongoDB database. implemented password hashing for secure logins using bycrypt. 
+planning on continuing this project to add cookies and sessions. 
+Had a headache of problems trying to deploy it on render due to MongoDB connection issues but I finally pulled it off 🎉
 
 ## Installation
 Clone repository with the command git clone <url>
